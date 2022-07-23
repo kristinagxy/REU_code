@@ -1,7 +1,11 @@
 # REU_code
 code for the project **Iterative Methods at Lower Precision** at Emory REU 2022
 
-the modified codes for CGLS and CS in the IR Tools package to work at custom precision level -> [IRtools](https://github.com/kristinagxy/REU_code/tree/main/IRtools)
+the modified codes for iterative methods at custom precision level from the IR Tools package -> [IRtools](https://github.com/kristinagxy/REU_code/tree/main/IRtools);
+* chopped CGLS -> [IRcgls_chop](https://github.com/kristinagxy/REU_code/blob/main/IRtools/IRcgls_chop.m)
+* CS -> [cs_o](https://github.com/kristinagxy/REU_code/blob/main/IRtools/cs_o.m)
+* chopped CS -> [cs_original](https://github.com/kristinagxy/REU_code/blob/main/IRtools/cs_original.m)
+* chopped CS with Tikhonov Regularization -> [cs_chop](https://github.com/kristinagxy/REU_code/blob/main/IRtools/cs_chop.m)
 
 the modified basic operations for custom precision level -> [basic_operations](https://github.com/kristinagxy/REU_code/tree/main/basic_operations)
 
