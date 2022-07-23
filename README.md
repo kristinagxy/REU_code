@@ -8,7 +8,7 @@ the modified basic operations for custom precision level -> [basic_operations](h
 function for drawing error norms of the .mat files in a given directory, can choose an aspect of the problem to make comparisons ('precision','size','blurlevel','noise') -> [make_plots](https://github.com/kristinagxy/REU_code/blob/main/make_plots.m)
 
 * Files must be saved with the format: problem name_precision level_size_blur level_noise leve_file type.mat
-Ex: tomo_single_64_default_0.01_info.mat
+  (tomo_single_64_default_0.01_info.mat)
 
 function for generating image from the solutions in a given directory -> [do_plots](https://github.com/kristinagxy/REU_code/blob/main/do_plots.m)
 
